@@ -1,0 +1,211 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 3.8.1.1653043320
+Updated: 2022-05-20 10:42:00
+
+*/
+
+@
+body{
+	font-family:sans-serif;
+}
+p{
+	font-size:20px;
+	color:#737373;
+}
+a.ast-custom-button-link {
+    text-decoration: none;
+}
+#astra-footer-menu a.menu-link {
+    text-decoration: none;
+}
+footer#colophon {
+	margin-top:40px;
+}
+.ast-footer-copyright p {
+    font-size: 16px;
+}
+.flex-class h1{
+	font-size:60px;
+	font-weight:800;
+	color:#818CF8;
+}
+.flex-class p{
+	font-size:20px;
+	color:#fff;
+}
+.section-one{
+	background-color:#171717;
+}
+.section-one a.btn{
+	    background-color: #4338CA;
+   		width: 100%;
+   	  color: #fff;
+			padding: 16px 40px;
+			font-size:18px;
+}
+.section-one a.btn:hover{
+	    background-color: #4338CA;
+   	  color: #fff;
+			
+}
+.section-one .link-style {
+    color: #fff;
+	font-size:16px;
+}
+
+
+/* Second-Section */
+
+.section-second h2{
+	font-size:32px;
+	font-weight:800;
+}
+.section-second h3{
+	font-size:30px;
+	font-weight:800;
+}
+.blurb-style {
+    display: flex;
+    align-items: center;
+}
+.blurb-style p {
+    margin-bottom: 4px;
+}
+
+.section-third h2{
+	font-size:60px;
+	font-weight:800;
+}
+.section-third span.sub-heading{
+	font-weight:600;
+	color:#4F46E5;
+	font-size:16px;
+}
+
+
+
+.section-forth p {
+    font-size: 16px;
+}
+.section-forth .img-fluid{
+	height:400px !important;
+}
+.section-fifth h2{
+	font-size:32px;
+	font-weight:800;
+}
+ .box-style{
+	width:600px;
+	border-radius:5px;
+	background-color:#fff;
+	height:auto;
+}
+.section-sixth{
+background-color:#171717;
+}
+.section-sixth span.sub-heading{
+    font-size: 18px;
+    color: #d1d1d1;
+}
+.section-sixth h2{
+font-size:48px;
+font-weight:800;
+	color:#fff;
+}
+.section-sixth p{
+	color:#fff;
+}
+
+.section-sixth h3{
+	font-size:16px;
+	margin-left:15px;
+}
+
+.section-sixth li.list-group-item {
+    display: flex;
+    align-items: flex-end;
+		padding: 5px 0px;
+}
+
+.section-sixth ul{
+	padding:20px 20px;
+}
+.section-seventh{
+	background-color:#171717;
+}
+.section-seventh .content{
+	padding:30px;
+}
+.section-seventh h4{
+	font-weight:600;
+	font-size:16px;
+}
+.section-seventh h4.border-style{
+    border: 1px solid #000;
+    padding: 4px 13px;
+    width: 20%;
+    border-radius: 10px;
+	margin-left:10px;
+}
+.section-seventh a.btn{
+background-color: #4338CA;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+}
+.category-style{
+	display:flex;
+}
+.section-seventh  .col-space-top{
+	margin-top:20px;
+}
+
+
+@media (min-width: 922px){
+.site-content .ast-container {
+    display: block;
+		max-width:100%;
+		padding:0px;
+}
+}
+@media only screen and (max-width: 1199px)  {
+	.row-one .col-one {
+ 		text-align: center;
+		margin-top:50px;
+}
+	.row-one .col-two {
+		text-align:center;
+}
+	.second-col-one{
+		text-align:center;
+	}
+		.second-col-two{
+		text-align:center;
+	}
+	.box-style{
+		width:90% !important;
+	}
+	.flex-reverse-class {
+    display: flex;
+    flex-direction: column-reverse;
+}
+	.set-width{
+		width:100% !important;
+	}
+	.flex-class h1{
+	font-size:45px;
+}
+	.section-third h2{
+	font-size:45px;
+	
+}
+}
+
+
